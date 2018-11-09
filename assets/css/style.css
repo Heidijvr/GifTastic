@@ -43,15 +43,32 @@
   transform: translateY(4px);
 }
 
-body {
-    background: 100vw;
+ /* body { */ 
+    /* background: 100vw;
     height:100vh;
-    background: url("../images/movie.jpg") no-repeat center;
+    background: url("../images/hollywood1.jpeg") no-repeat center;
     background-position: 50% 50%;   
     overflow: hidden;
     display:block;    
     margin: auto 0;
+    background-size: cover; */
+/* }   */
+
+/* .background_image{
+    height: 100vh;
+    background: url("../images/hollywood1.jpeg") center center;
+    width: 100%;
+    min-height:100%;
     background-size: cover;
+    overflow: hidden;
+    } */
+
+body { 
+ /* padding: 25px;  */
+ background: url("../images/hollywood1.jpeg"); 
+ background-repeat: no-repeat; 
+ background-size: 100vw;
+ height: 20vh; 
 } 
 
 body, html {
@@ -68,9 +85,15 @@ body, html {
     border-style: dotted;
     border-width: thick;
     padding: 50px;  
-    margin-top: 100px; */
+    margin-top: 100px; 
+    margin: 0 auto 0 auto;
+    width: 1000px;
 }
 
 #gifs-appear-here {
-    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+#rating {
+    /* text-align: center; */
 }

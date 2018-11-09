@@ -35,12 +35,13 @@ var buttonClick = function()  {
 
             console.log(results[i].rating);
             var rating = results[i].rating;
-        
+                   
             var imageResult = results[i].images;
             console.log(imageResult.fixed_width.url);
             var imageToAdd = $("<img>");
-            var p = $("<p>");           
-            p.text(rating);          
+            var p = $("<p>");                    
+            p.text(rating);  
+                            
             //imageToAdd.append("<p> Rating: " + rating + "</p>");
             imageToAdd.addClass("gif");
             imageToAdd.attr("src", imageResult.fixed_width_still.url);
@@ -52,7 +53,7 @@ var buttonClick = function()  {
             imageToAdd.on('click', gifClick);
             $("#gifs-appear-here").append(imageToAdd);
             $("#gifs-appear-here").append(p);
-        } 
+            } 
     });
 };
 
