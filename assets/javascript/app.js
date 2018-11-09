@@ -31,14 +31,16 @@ var buttonClick = function()  {
     }).then(function(response) {
         $("#gifs-appear-here").empty();
         var results = response.data;
-        
         for (var i = 0; i < results.length; i++) {
+
             console.log(results[i].rating);
-            var rating = results.rating;
+            var rating = results[i].rating;
         
             var imageResult = results[i].images;
             console.log(imageResult.fixed_width.url);
             var imageToAdd = $("<img>");
+            var p = $("<p>");           
+            p.text(rating);          
             //imageToAdd.append("<p> Rating: " + rating + "</p>");
             imageToAdd.addClass("gif");
             imageToAdd.attr("src", imageResult.fixed_width_still.url);
@@ -46,12 +48,11 @@ var buttonClick = function()  {
             imageToAdd.attr("data-animate", imageResult.fixed_width.url);
             imageToAdd.attr("data-still", imageResult.fixed_width_still.url);
             imageToAdd.attr("data-state", "still");
-         
-
+            
             imageToAdd.on('click', gifClick);
             $("#gifs-appear-here").append(imageToAdd);
+            $("#gifs-appear-here").append(p);
         } 
-
     });
 };
 
