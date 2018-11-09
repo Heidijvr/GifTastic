@@ -34,10 +34,12 @@ var buttonClick = function()  {
         
         for (var i = 0; i < results.length; i++) {
             console.log(results[i].rating);
-
+            var rating = results.rating;
+        
             var imageResult = results[i].images;
             console.log(imageResult.fixed_width.url);
             var imageToAdd = $("<img>");
+            //imageToAdd.append("<p> Rating: " + rating + "</p>");
             imageToAdd.addClass("gif");
             imageToAdd.attr("src", imageResult.fixed_width_still.url);
            
@@ -54,7 +56,7 @@ var buttonClick = function()  {
 };
 
 
-var topics = ["John Cleese", "Ricky Gervais", "Sacha Baron Cohen", "Jerry Seinfeld"];
+var topics = ["John Cleese", "Ricky Gervais", "Sacha Baron Cohen", "Jerry Seinfeld", "Will Smith", "Jack Nicholson", "Meryl Streep", "Sameul L. Jackson", "Natalie Portman", "Idris Elba", "Ralph Fiennes", "Sean Connery", "Judi Dench", "Kate Winslet", "Keira Knightley", "Anthony Hopkins", "Liam Neeson"];
 
 var renderButtons = function() {
     $("#buttons").empty();
@@ -73,16 +75,13 @@ renderButtons();
 
 $("#submit").on("click", function() {
     var name = $("#nameInput").val().trim();
+    event.preventDefault();
     topics.push(name);
     renderButtons();
 }); 
 
 /*
-    //Ajax GeEt request
-    $.ajax({
-        url:queryURL,
-        method: "GET"
-    })
+   
     // After data comes back from the API
     .then(function(response) {
         // Storing an array of results in the results variable

@@ -1,4 +1,66 @@
-#buttons {
-    background-color: rgb(50, 50, 252);
-    border-color: blue;
+
+#heading {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 750px;
+}
+
+#title {
+    text-align: center;
+    font-size: 96px;
+    font-display: bold;
+    font-family: 'Times New Roman', Times, serif;  
+    color: rgb(110, 109, 109);
+    text-shadow: 1px 1px 2px rgb(241, 237, 237), 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#textInput {
+    text-align: right;
+    padding-right: 140px;
+    padding-bottom: 50px;
+}
+
+#instructions {
+    padding-top: 45px;
+    font-weight: bold;
+    font-size: 22px; 
+    font-family: "Garamond", "Book Antigua", "Bookman Old Style"; 
+}
+
+#submit {
+    font-weight: bold; 
+    font-size: 22px; 
+    font-family: "Garamond", "Book Antigua", "Bookman Old Style"; 
+    background-color: #607edf        
+}
+
+#submit:hover {background-color: #4ecce2}
+
+#submit:active {
+  background-color: #4ecce2;
+  box-shadow: 0 5px hsl(177, 46%, 53%);
+  transform: translateY(4px);
+}
+
+.background {
+    width:100%;
+    height:auto;
+    background: url("..images/movie.jpg") no-repeat center;
+    background-position: 50% 50%;   
+    overflow: hidden;
+    display:block;    
+    margin: auto 0;
+}
+
+.container {
+    border-color: rgb(26, 4, 150);
+    border-style: dotted;
+    border-width: thick;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+#gifs-appear-here {
+    text-align: center;
 }
