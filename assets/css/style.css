@@ -26,20 +26,22 @@
     font-weight: bold;
     font-size: 22px; 
     font-family: "Garamond", "Book Antigua", "Bookman Old Style"; 
+    color: rgb(71, 53, 173), 0 0 5px;
+    text-shadow: 1px 1px 2px rgb(241, 237, 237), 0 0 25px blue, 0 0 5px darkblue;
 }
 
 #submit {
     font-weight: bold; 
     font-size: 22px; 
     font-family: "Garamond", "Book Antigua", "Bookman Old Style"; 
-    background-color: #607edf        
+    background-color: rgb(150, 148, 148)     
 }
 
-#submit:hover {background-color: #4ecce2}
+#submit:hover {background-color: rgb(110, 109, 109)}
 
 #submit:active {
-  background-color: #4ecce2;
-  box-shadow: 0 5px hsl(177, 46%, 53%);
+  background-color: rgb(110, 109, 109);
+  box-shadow: 0 5px rgb(180, 179, 179);
   transform: translateY(4px);
 }
 
@@ -64,11 +66,11 @@
     } */
 
 body { 
- /* padding: 25px;  */
  background: url("../images/hollywood1.jpeg"); 
  background-repeat: no-repeat; 
  background-size: 100vw;
- height: 20vh; 
+ overflow: hidden;
+  
 } 
 
 body, html {
@@ -80,20 +82,28 @@ body, html {
     color: blue;
 }
 
-.container {
+#container {
     border-color: rgb(26, 4, 150);
     border-style: dotted;
     border-width: thick;
     padding: 50px;  
-    margin-top: 100px; 
-    margin: 0 auto 0 auto;
-    width: 1000px;
-}
+    margin-top: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
+    float: left; 
+    color: black;  
+    font-family: "Garamond", "Book Antigua", "Bookman Old Style";
+    font-size: 22px; 
+    text-align: center;
+}   
 
 #gifs-appear-here {
-    margin: 0 auto 0 auto;
+    float: right;
 }
 
 #rating {
-    /* text-align: center; */
+    color: black;  
+    font-family: "Garamond", "Book Antigua", "Bookman Old Style";
+    font-size: 22px;
 }
+
