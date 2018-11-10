@@ -19,6 +19,7 @@
     text-align: right;
     padding-right: 140px;
     padding-bottom: 50px;
+    font-family: "Garamond", "Book Antigua", "Bookman Old Style";
 }
 
 #instructions {
@@ -33,44 +34,30 @@
 #submit {
     font-weight: bold; 
     font-size: 22px; 
+    color: white;
     font-family: "Garamond", "Book Antigua", "Bookman Old Style"; 
-    background-color: rgb(150, 148, 148)     
+    background-color: rgb(160, 112, 112);        
 }
 
-#submit:hover {background-color: rgb(110, 109, 109)}
+#submit:hover {background-color: rgb(141, 88, 88);}
 
 #submit:active {
-  background-color: rgb(110, 109, 109);
+  background-color:rgb(160, 112, 112);
   box-shadow: 0 5px rgb(180, 179, 179);
   transform: translateY(4px);
 }
 
- /* body { */ 
-    /* background: 100vw;
-    height:100vh;
-    background: url("../images/hollywood1.jpeg") no-repeat center;
-    background-position: 50% 50%;   
-    overflow: hidden;
-    display:block;    
-    margin: auto 0;
-    background-size: cover; */
-/* }   */
-
-/* .background_image{
-    height: 100vh;
-    background: url("../images/hollywood1.jpeg") center center;
-    width: 100%;
-    min-height:100%;
-    background-size: cover;
-    overflow: hidden;
-    } */
-
+#nameInput {
+    font-weight: bold;
+    font-size: 22px; 
+    font-family: "Garamond", "Book Antigua", "Bookman Old Style"; 
+}
+  
 body { 
- background: url("../images/hollywood1.jpeg"); 
- background-repeat: no-repeat; 
+ background: url("../images/hollywood1.jpeg") no-repeat; 
  background-size: 100vw;
  overflow: hidden;
-  
+ background-size: cover;
 } 
 
 body, html {
@@ -79,31 +66,38 @@ body, html {
 }
 
 #buttons button {
-    color: blue;
+    color: rgb(239, 239, 247);
+    background-color: rgb(160, 112, 112);
+    padding: 10px;
+    font-family: "Garamond", "Book Antigua", "Bookman Old Style";
+    font-size: 22px;
+    margin: 2px;
+
 }
 
 #container {
-    border-color: rgb(26, 4, 150);
+    border-color: rgb(216, 206, 60);    
     border-style: dotted;
     border-width: thick;
-    padding: 50px;  
+    padding: 10px;  
     margin-top: 60px;
-    margin-left: 300px;
-    margin-right: 300px;
-    float: left; 
-    color: black;  
-    font-family: "Garamond", "Book Antigua", "Bookman Old Style";
-    font-size: 22px; 
-    text-align: center;
-}   
-
-#gifs-appear-here {
-    float: right;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-#rating {
+#imageContainer {
+    padding: 50px;  
+    margin-top: 60px;   
+    float: left; 
+    text-align: center;
+    margin-left: 150px;
     color: black;  
     font-family: "Garamond", "Book Antigua", "Bookman Old Style";
     font-size: 22px;
-}
+}  
+
+/* 
+#gifs-appear-here {
+    float: right;
+} */
 

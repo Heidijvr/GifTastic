@@ -31,17 +31,21 @@ var buttonClick = function()  {
     }).then(function(response) {
         $("#gifs-appear-here").empty();
         var results = response.data;
+        
+        // $(".gifImg").empty();
         for (var i = 0; i < results.length; i++) {
+            
 
             console.log(results[i].rating);
             var rating = results[i].rating;
+            var username = results[i].username;
                    
             var imageResult = results[i].images;
             console.log(imageResult.fixed_width.url);
             var imageToAdd = $("<img>");
             var p = $("<p>");                    
-            p.text(rating);  
-            //var container = $("#container");
+            p.text(rating); 
+            //var container = $("#imageContainer");
 
             imageToAdd.addClass("gif");
             imageToAdd.attr("src", imageResult.fixed_width_still.url);
@@ -54,7 +58,7 @@ var buttonClick = function()  {
             $("#gifs-appear-here").append(imageToAdd);
             $("#gifs-appear-here").append(p);
             //p.append(imageToAdd);
-            //imageToAdd.append("#container");
+            //imageToAdd.append("#imageContainer");
             } 
         });
     };
@@ -93,20 +97,7 @@ $("#submit").on("click", function() {
         // looping over every result item
         for (var i = 0; i <results.length; i++) {
 
-            //add rating!!!
-            // Creating image tag
-            var personImage = $("<img>");
-
-            // GIving image tag an src attribute of a property pulled from the reult item
-            personImage.attr("src", results[i].images.fixed_height.url);
-
-            // Appending the paragraph and personImage to the gifDiv we created
-            gifDIv.append(p);
-            gifDiv.append(personImage);
-
-            // Prepending the gifDiv to the "#gifs-appear-here" div in the HTML
-            $("#gifs-appear-here").prepend(gifDiv);
-
-        }
+        
+                }
 
 */
