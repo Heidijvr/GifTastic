@@ -96,8 +96,9 @@ body, html {
     font-size: 22px;
 }  
 
-/* 
-#gifs-appear-here {
-    float: right;
-} */
+
+#gifs-appear-here div {
+    float: left;
+    padding: 7px;
+}
 

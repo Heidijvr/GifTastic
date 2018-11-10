@@ -45,7 +45,7 @@ var buttonClick = function()  {
             var imageToAdd = $("<img>");
             var p = $("<p>");                    
             p.text(rating); 
-            //var container = $("#imageContainer");
+            var container = $("<div>");
 
             imageToAdd.addClass("gif");
             imageToAdd.attr("src", imageResult.fixed_width_still.url);
@@ -55,8 +55,10 @@ var buttonClick = function()  {
             imageToAdd.attr("data-state", "still");
             
             imageToAdd.on('click', gifClick);
-            $("#gifs-appear-here").append(imageToAdd);
-            $("#gifs-appear-here").append(p);
+            // $("#gifs-appear-here").append(imageToAdd);
+            $(container).append(imageToAdd);
+            $(container).append(p);
+            $("#gifs-appear-here").append(container);
             //p.append(imageToAdd);
             //imageToAdd.append("#imageContainer");
             } 
