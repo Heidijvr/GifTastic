@@ -1,11 +1,12 @@
 ## GifTastic
 
-GIPHY API used to create a dynamic web page populated with gifs of choice. The assignment was completed by calling the GIPHY API and using JavaScript and jQuery to change the HTML.
+GIPHY API used to create a dynamic web page populated with gifs of choice. The assignment was completed by using JavaScript and jQuery to change the HTML, combined with CSS and images for styling purposes.
 This project is part of the front-end curriculum for the University of Washington Part-time Coding Bootcamp. 
 
 -----
 
 #**Challenges:**
+
 
 #**Project Requirements:**
 
@@ -14,6 +15,8 @@ This project is part of the front-end curriculum for the University of Washingto
 * When the user clicks one of the still GIPHY images, the gif should animate. If the user clicks the gif again, it should stop playing.
 * Under every gif, display its rating - this data is provided by the GIPHY API.
 * Add a user input box which adds a topic with fitting giphys, along with buttons on the page.
+
+-----
 
 #**Suggested future challenges:**
 
