@@ -6,10 +6,10 @@ This project is part of the front-end curriculum for the University of Washingto
 
 -----
 
-#**Challenges:**
+**Challenges:**
 
 
-#**Project Requirements:**
+**Project Requirements:**
 
 * To obtain a GIPHY account and obtaining an API Key by creating an app.
 * When the user clicks on a button, the page should grab 10 static, non-animated gif images from the GIPHY API and place them on the page.
@@ -19,7 +19,7 @@ This project is part of the front-end curriculum for the University of Washingto
 
 -----
 
-#**Suggested future challenges:**
+**Suggested future challenges:**
 
 * Ensure that the app is fully mobile responsive.
 * Allow users to request additional gifs to be added to the page.
