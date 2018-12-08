@@ -24,6 +24,8 @@ This project is part of the front-end curriculum for the University of Washingto
 * Integrate this search with additional APIs such as OMDB, or Bands in Town.
 * Allow users to add their favorite gifs to a favorites section.
 
+-----
+
 **Built with**
 
 * HTML
