@@ -4,6 +4,8 @@ GIPHY API used to create a dynamic web page populated with gifs of choice. The a
  .
 This project is part of the front-end curriculum for the University of Washington Part-time Coding Bootcamp. 
 
+https://github.com/Heidijvr/GifTastic/blob/master/assets/images/giphy.screenshot.png
+
 -----
 
 **Project Requirements:**
