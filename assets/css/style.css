@@ -1,6 +1,6 @@
 
 #heading {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
     width: 750px;
@@ -23,11 +23,13 @@
 }
 
 #instructions {
-    padding-top: 45px;
+    padding-top: 35px;
     font-weight: bold;
-    font-size: 22px; 
+    font-size: 26px; 
     font-family: "Garamond", "Book Antigua", "Bookman Old Style"; 
-    color: rgb(71, 53, 173), 0 0 5px;
+    /* color: rgb(71, 53, 173), 0 0 5px; */
+    /* color: rgb(160, 112, 112); */
+    color: rgb(216, 206, 60);
     text-shadow: 1px 1px 2px rgb(241, 237, 237), 0 0 25px blue, 0 0 5px darkblue;
 }
 
@@ -54,7 +56,7 @@
 }
   
 body { 
- background: url("../images/hollywood1.jpeg") no-repeat; 
+ background: url("../images/film.background.jpg") no-repeat; 
  background-size: 100vw;
  overflow: hidden;
  background-size: cover;
@@ -72,7 +74,6 @@ body, html {
     font-family: "Garamond", "Book Antigua", "Bookman Old Style";
     font-size: 22px;
     margin: 2px;
-
 }
 
 #container {
@@ -80,14 +81,14 @@ body, html {
     border-style: dotted;
     border-width: thick;
     padding: 10px;  
-    margin-top: 60px;
+    margin-top: 20px;
     margin-left: 100px;
     margin-right: 100px;
 }
 
 #imageContainer {
     padding: 50px;  
-    margin-top: 60px;   
+    margin-top: 20px;   
     float: left; 
     text-align: center;
     margin-left: 150px;
