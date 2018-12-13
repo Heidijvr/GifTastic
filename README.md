@@ -1,6 +1,8 @@
 ## GifTastic
 
-GIPHY API used to create a dynamic web page populated with gifs of choice. The assignment was completed by using JavaScript and jQuery to change the HTML, combined with CSS and images for styling purposes ([Play the GifTastic game!](https://heidijvr.github.io/GifTastic//)).
+GIPHY API used to create a dynamic web page populated with gifs of choice. The assignment was completed by using JavaScript and jQuery to change the HTML, combined with CSS and images for styling purposes.
+
+                                                     ([Play the GifTastic game!](https://heidijvr.github.io/GifTastic//))
 
 This project is part of the front-end curriculum for the University of Washington Part-time Coding Bootcamp.
 
