@@ -88,18 +88,5 @@ $("#submit").on("click", function() {
     event.preventDefault();
     topics.push(name);
     renderButtons();
-}); 
+});
 
-/*
-   
-    // After data comes back from the API
-    .then(function(response) {
-        // Storing an array of results in the results variable
-        var results = response.data;
-        // looping over every result item
-        for (var i = 0; i <results.length; i++) {
-
-        
-                }
-
-*/
